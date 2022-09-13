@@ -1,0 +1,32 @@
+.project-card {
+  width: 16em;
+  margin: 0 auto;
+}
+
+.project-card .card-img-top {
+  transition: all 1s ease;
+  opacity: 1;
+  min-height: 150px;
+  max-height: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.project-card .card-img-top:hover {
+  transition: all 1s ease;
+  opacity: .5;
+  min-height: 150px;
+  max-height: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.featured-card .card-text {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+  .project-card {
+    width: 24em !important;
+  }
+}

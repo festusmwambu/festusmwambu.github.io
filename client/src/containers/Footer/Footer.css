@@ -1,0 +1,53 @@
+.footer-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.footer-container, .footer-container a {
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+svg.footer-icon.github-icon, svg.footer-icon.linkedin-icon, svg.footer-icon.twitter-icon {
+  width: 3em;
+  height: 2em;
+  margin-top: 20px;
+}
+
+.page-links li {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.jared-img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  float: left;
+  padding-right: 25px;
+}
+
+.about-me-text {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer-container {
+    height: auto;
+  }
+  .page-links, .social-links {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .footer-container {
+    height: auto;
+  }
+}

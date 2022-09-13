@@ -1,0 +1,40 @@
+.featured-card {
+  width: 24em;
+  margin: 20px auto;
+  min-height: 24em;
+  max-height: 34em;
+  overflow: hidden;
+  background-color: black;
+  border: none;
+  box-shadow: 0 0 20px rgba(34, 34, 34, 0.336);
+}
+
+.card-body {
+  background-color: white;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.img-wrapper {
+  overflow: hidden;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.featured-card .card-img-top {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  opacity: 0.4;
+}
+
+.featured-card:hover img {
+  transform: scale(1.5);
+  opacity: 0.8;
+}
+
+.tilt {
+  margin: 0 auto;
+}

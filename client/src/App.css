@@ -1,0 +1,60 @@
+.App {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.navbar {
+  background-color: #00acfcd1;
+  box-shadow: 0px 5px 4px #000000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  background-color: black;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 5px;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: white;
+  border: 1px solid #00acfc;
+}
+
+.nav-link {
+  margin-left: 25px;
+  font-size: large;
+  border: 1px solid transparent
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(https://mdbootstrap.com/img/svg/hamburger3.svg?color=fff);
+}
+
+.navbar-light .navbar-toggler {
+  background-color: black;
+  border-color: #fff;
+  padding: 7px;
+  box-shadow: 0px 0px 4px black;
+}
+
+.nav-link:hover {
+  border: 1px solid #00acfc;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.fixed-top {
+  position: relative;
+}

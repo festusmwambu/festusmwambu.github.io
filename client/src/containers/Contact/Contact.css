@@ -1,0 +1,51 @@
+.contact-container {
+  background-image: url(../../images/background-contact.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+#send-button {
+  margin: 0px;
+  max-width: 135px;
+  position: absolute;
+  right: 73px;
+}
+
+.contact-wrapper {
+  background-color: rgba(26, 26, 26, 0.658);
+  width: 75%;
+  height: 75%;
+  margin: 0 auto;
+  border-radius: 10px;
+  position: relative;
+  left: 0%;
+  top: 14%;
+}
+
+.contact-wrapper .form-group {
+  margin-bottom: 1rem;
+  width: 85%;
+  margin: 26px auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .contact-wrapper {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .contact-container {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+  .contact-container {
+    height: 70%;
+  }
+  .contact-wrapper {
+    height: 50%;
+  }
+}

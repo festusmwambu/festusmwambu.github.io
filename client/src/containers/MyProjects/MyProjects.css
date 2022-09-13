@@ -1,0 +1,38 @@
+.projects-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.projects-title {
+  margin: 19px auto;
+  color: white;
+  font-size: 3em;
+}
+
+.project-card {
+  width: 16rem;
+  margin-bottom: 38px;
+}
+
+.projects-wrapper {
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+  .projects-container {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 401px) {
+  .projects-container {
+    height: auto;
+  }
+}
+
+@media only screen and (max-height: 1024px) and (min-height: 760px) {
+  .projects-container {
+    height: auto;
+  }
+}

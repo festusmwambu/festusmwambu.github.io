@@ -1,0 +1,43 @@
+.features-container {
+  background-image: url(../../images/background-code.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.features-wrapper {
+  background-color: rgba(255, 255, 255, 0.678);
+  width: 100%;
+  height: 100%;
+  padding-top: 60px;
+}
+
+@media only screen and (max-width: 480px) {
+  .features-container {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .features-container {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 769px) {
+  .features-container {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+  .features-container {
+    height: auto;
+  }
+}
+
+@media only screen and (max-height: 1024px) and (min-height: 760px) {
+  .features-container {
+    height: auto;
+  }
+}

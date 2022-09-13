@@ -1,0 +1,56 @@
+.languages-container {
+  width: 100%;
+}
+
+.language-logo {
+  width: 18vh;
+  height: 18vh;
+  margin: 0 auto;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.language-logo:hover {
+  transform: scale(1.5);
+}
+
+@media only screen and (max-width: 480px) {
+  .languages-container {
+    margin: 25px auto;
+  }
+  .language-logo {
+    width: 11vh;
+    height: 11vh;
+    margin: 20px auto;
+  }
+  .language-logo:hover {
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  .language-logo {
+    width: 15vh;
+    height: 15vh;
+  }
+  .language-logo:hover {
+    transform: none;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 769px) {
+  .language-logo {
+    width: 12vh;
+    height: 12vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+  .language-logo {
+    width: 14vh;
+    height: 14vh;
+  }
+}

@@ -1,0 +1,241 @@
+.main-container {
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding-top: 32px;
+}
+
+.main-h2 {
+  font-weight: bold;
+}
+
+.main-h3 {
+  position: absolute;
+  font-weight: lighter;
+  visibility: hidden;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(255, 255, 255);
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation: typing 3.5s 11s steps(45), blink-caret .75s step-end infinite, cssAnimation 0s 11s forwards;
+}
+
+@keyframes cssAnimation {
+  to {
+    visibility: visible;
+  }
+}
+
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+    position: absolute;
+  }
+}
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: rgb(255, 255, 255);
+  }
+}
+
+#text-state {
+  animation-name: mainText;
+  animation-duration: 2s;
+  font-size: 7em;
+}
+
+@keyframes mainText {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
+}
+
+#mainwebdev {
+  position: absolute;
+  top: -64px;
+  right: -158px;
+}
+
+#portfolio-button {
+  color: #fff;
+  border-color: #00acfc;
+  font-size: 24px;
+  background-color: transparent;
+  box-shadow: 2px 1px 0px #00acfc;
+}
+
+#portfolio-button:hover {
+  color: #000;
+  border-color: #000;
+  background-color: #00acfc;
+  font-size: 24px;
+}
+
+#contact-button {
+  margin-left: 50px;
+  color: #fff;
+  border-color: #695ca8;
+  font-size: 24px;
+  background-color: transparent;
+  box-shadow: 2px 1px 0px #695ca8;
+}
+
+#contact-button:hover {
+  color: #000;
+  border-color: #000;
+  background-color: #695ca8;
+  font-size: 24px;
+}
+
+#download-link {
+  margin-left: 50px;
+  color: #fff;
+  border-color: #fff;
+  font-size: 24px;
+  background-color: transparent;
+  box-shadow: 2px 1px 0px #fff;
+}
+
+#download-link:hover {
+  color: #000;
+  border-color: #000;
+  background-color: #fff;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 374px) {
+  .main-container {
+    height: auto;
+  }
+  .main-h2 {
+    font-size: 28px;
+  }
+  #text-state {
+    font-size: 3em;
+  }
+  #mainwebdev, .main-img-wrapper {
+    display: none;
+  }
+  .main-h3 {
+    white-space: unset;
+    font-size: 11px;
+    animation: unset;
+    visibility: inherit;
+  }
+  #portfolio-button {
+    font-size: 14px;
+  }
+  #contact-button {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+  .row-buttons {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 375px) {
+  .main-container {
+    height: auto;
+  }
+  #text-state {
+    font-size: 3em;
+  }
+  #mainwebdev {
+    display: none;
+  }
+  .main-h2 {
+    text-align: center;
+    font-size: 34px;
+  }
+  .main-h3 {
+    white-space: unset;
+    font-size: 12px;
+    animation: unset;
+    visibility: inherit;
+  }
+  .main-img-wrapper {
+    display: none;
+  }
+  .row-buttons {
+    margin-top: 40px;
+  }
+  #contact-button, #portfolio-button, #download-link {
+    font-size: 20px;
+    margin-left: 5px;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+  #mainwebdev, .main-img-wrapper {
+    display: none;
+  }
+  .main-h3 {
+    white-space: unset;
+    font-size: auto;
+    animation: unset;
+    visibility: inherit;
+  }
+  .row-buttons {
+    margin: 50px auto;
+    height: auto;
+  }
+  .main-container {
+    height: auto;
+  }
+  #contact-button, #portfolio-button, #download-link {
+    font-size: 20px;
+    margin-left: 5px;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 769px) {
+  #mainwebdev, .main-img-wrapper {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+  #mainwebdev {
+    position: absolute;
+    top: -9px;
+    right: -3px;
+    width: 85%;
+  }
+  #text-state {
+    font-size: 6em;
+  }
+  .main-container {
+    height: 70%;
+  }
+  #contact-button, #portfolio-button, #download-link {
+    font-size: 20px;
+    margin-left: 5px;
+    width: 100%;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+.input-group {
+  margin: 0 auto;
+}
+
+.form-control {
+  font-size: 24px;
+}
+
+input.form-control, textarea.form-control {
+  font-size: 20px;
+}
+
+span#basic-addon1 {
+  width: 107px;
+  align-items: baseline;
+  font-size: 20px;
+}
