@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MERN_Personal_Portfolio - Built with MERN Stack (MongoDB, Express.js, React.js and Node.js) with AWS and Serverless.
 
 ## Table of Contents
@@ -56,3 +57,7 @@ MIT
 ## [Github Profile: github.com/jaredseefried](https://github.com/jaredseefried "Title")
 
 Please email me at jared.seefried@yahoo.com if you have additional questions.
+=======
+# festusmwambu.github.io
+
+>>>>>>> e43e83274e594d0b2912277573732a2892b0dd07
